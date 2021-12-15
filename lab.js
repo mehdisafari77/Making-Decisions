@@ -42,19 +42,21 @@ if (temperature >= 80 && rain === true) {
   console.log('you should just chill')
 }
 
-// Problem 4
+// Problem 5
 for (let i = 0; i < 10; i++) {
   console.log('hello')
 }
 
-////////// PROBLEM 6 //////////
 
 /*
   Create a for-loop that runs 10 times, logging the numbers 1 through 10. Ex, on the first iteration it would log 1, on the second iteration it would log 2.
 */
 
-//CODE HERE
-
+// Problem 6
+var arr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
+for (let i = 0; i < 10; i++) {
+  console.log(arr[i]);
+}
 
 ////////// PROBLEM 7 //////////
 
