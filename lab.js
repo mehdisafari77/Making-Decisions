@@ -11,20 +11,20 @@ var amysAge = 29
 var brittanisAge = 34
 var amysBirthYear = 1991
 var brittanisBirthYear = 1986
-var name1 = 'Amy'
-var name2 = 'Brittany'
+var a = 'Amy'
+var b = 'Brittany'
 
 if (amysAge > brittanisAge) {
-  console.log(`${name1} is older than ${name2}`)
+  console.log(`${a} is older than ${b}`)
 } else if (brittanisAge > amysAge) {
-  console.log(`${name2} is older than ${name1}`)
+  console.log(`${a} is older than ${b}`)
 } else if (brittanisAge = amysAge) {
-  console.log(`${name1} and ${name2} are the same age`)
+  console.log(`${a} and ${b} are the same age`)
 }
 
 // Problem 3
 if (amysBirthYear === brittanisBirthYear) {
-  console.log(`${name1} and ${name2} are born on the same year`) 
+  console.log(`${a} and ${b} are born on the same year`) 
 } else {
   console.log(`Amy and Brittany were not born on the same year`)
 }
@@ -43,7 +43,7 @@ if (temperature >= 80 && rain === true) {
 
 // Problem 5
 for (let i = 0; i < 10; i++) {
-  console.log('hello')
+  console.log('Hello')
 }
 
 // Problem 6
@@ -85,13 +85,6 @@ let z = 5
 // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 while(z > 0) {
-  z = z-1
   console.log(z)
+  z--
 }
-
-
-// for ( x = 0; x <= 5; x++) {
-//   for ( y = 0; y <= 1; y++) {
-//       console.log(x + y);
-//   }
-// }
